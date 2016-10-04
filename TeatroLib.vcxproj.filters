@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\TeatroLib">
+      <UniqueIdentifier>{ab2c5036-0fdc-4ce2-85c8-5107a5bcef49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\TeatroLib">
+      <UniqueIdentifier>{939f6d91-2211-4b6b-8273-23c524c02802}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameEx">
+      <UniqueIdentifier>{e7d34867-0055-45df-8260-a7f82198928f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameEx">
+      <UniqueIdentifier>{4880d4ff-ab0d-4407-9b3c-c1ce9465d2bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameEx\SceneMain">
+      <UniqueIdentifier>{8ce923f4-58e6-4478-90da-c80880b626ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameEx\SceneMain">
+      <UniqueIdentifier>{564f4d23-63c9-4ab5-98c6-737d9978e45a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameEx\ScenePause">
+      <UniqueIdentifier>{77118c7a-665f-4605-b8d3-6f50058e6ff9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameEx\ScenePause">
+      <UniqueIdentifier>{0fcee3dc-ebf3-4846-9f7a-529895261fdc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Teatro.cpp">
+      <Filter>Source Files\TeatroLib</Filter>
+    </ClCompile>
+    <ClCompile Include="Scenery.cpp">
+      <Filter>Source Files\TeatroLib</Filter>
+    </ClCompile>
+    <ClCompile Include="Identify.cpp">
+      <Filter>Source Files\TeatroLib</Filter>
+    </ClCompile>
+    <ClCompile Include="Actor.cpp">
+      <Filter>Source Files\TeatroLib</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage.cpp">
+      <Filter>Source Files\TeatroLib</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneMain.cpp">
+      <Filter>Source Files\GameEx\SceneMain</Filter>
+    </ClCompile>
+    <ClCompile Include="ActorMain.cpp">
+      <Filter>Source Files\GameEx\SceneMain</Filter>
+    </ClCompile>
+    <ClCompile Include="ActorPause.cpp">
+      <Filter>Source Files\GameEx\ScenePause</Filter>
+    </ClCompile>
+    <ClCompile Include="ScenePause.cpp">
+      <Filter>Source Files\GameEx\ScenePause</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Teatro.h">
+      <Filter>Header Files\TeatroLib</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage.h">
+      <Filter>Header Files\TeatroLib</Filter>
+    </ClInclude>
+    <ClInclude Include="Identify.h">
+      <Filter>Header Files\TeatroLib</Filter>
+    </ClInclude>
+    <ClInclude Include="Actor.h">
+      <Filter>Header Files\TeatroLib</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneMain.h">
+      <Filter>Header Files\GameEx\SceneMain</Filter>
+    </ClInclude>
+    <ClInclude Include="NameDefine.h">
+      <Filter>Header Files\GameEx</Filter>
+    </ClInclude>
+    <ClInclude Include="ActorMain.h">
+      <Filter>Header Files\GameEx\SceneMain</Filter>
+    </ClInclude>
+    <ClInclude Include="ActorPause.h">
+      <Filter>Header Files\GameEx\ScenePause</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenary.h">
+      <Filter>Header Files\TeatroLib</Filter>
+    </ClInclude>
+    <ClInclude Include="ScenePause.h">
+      <Filter>Header Files\GameEx\ScenePause</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
